@@ -1,12 +1,12 @@
-import { createContext, useState } from 'react';
+import { createContext } from 'react';
 import Wrapper from './Wrapper'
 import Screen from './Screen'
 import Button from './Button'
-import './App.css';
 import AnimatedTitle from './AnimatedTitle';
 import KeypadWrapper from './KeypadWrapper';
 import WhiteWrapper from './WhiteWrapper';
 import useCalculator from './useCalculator';
+import './App.css';
 
 export const MyContext = createContext();
 
