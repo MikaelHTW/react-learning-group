@@ -3,7 +3,6 @@
   margin-left: 16px;
   width: 400px;
   background-color: black;
-  height: 600px;
 }
 
 .calculator-screen {
@@ -12,15 +11,18 @@
   margin-bottom: 16px;
 }
 
+.white-wrapper {
+  margin-top: 16px;
+  border: 1px solid white;
+  padding: 8px
+}
+
 .calculator-buttons {
   flex-wrap: wrap;
   display: flex;
   gap: 8px 8px;
   align-items: center;
   justify-content: center;
-  margin-top: 16px;
-  border: 1px solid white;
-  height: 400px;
 }
 
 .calculator-button {
@@ -31,4 +33,14 @@
 
 .calculator-value {
   font-size: 46px;
+}
+
+.animated-title {
+  animation: color-change 1s infinite;
+}
+
+@keyframes color-change {
+  0% { color: red; }
+  50% { color: blue; }
+  100% { color: red; }
 }
