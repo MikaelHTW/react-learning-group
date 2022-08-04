@@ -1,5 +1,8 @@
+import { createContext } from 'react'
 import Wrapper from './wrapper.js'
 import './App.css';
+
+export const MyContext = createContext();
 
 function App() {
   return (
@@ -8,7 +11,9 @@ function App() {
         <h1>
           Calculator
         </h1>
-        <Wrapper />
+        <MyContext.Provider value={{Title: '1st Grade calculator'}}>
+          <Wrapper />
+        </MyContext.Provider>
       </header>
     </div>
   );

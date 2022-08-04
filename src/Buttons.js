@@ -1,3 +1,5 @@
+import AnimatedTitle from "./AnimatedTitle";
+
 const Buttons = ({setResult, result}) => {
 
   const calculate = (number) => {
@@ -36,6 +38,7 @@ const Buttons = ({setResult, result}) => {
       <Button value='*'/>
       <Button value='C'/>
       <Button value='='/>
+      <AnimatedTitle/>
     </div>
   )
 }
