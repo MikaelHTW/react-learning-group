@@ -1,4 +1,4 @@
-import Wrapper from './wrapper.js'
+import Wrapper from './components/wrapper.js'
 import './App.css';
 
 function App() {
